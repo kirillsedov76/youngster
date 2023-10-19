@@ -1,0 +1,15 @@
+class Solution:
+    def fib(self, n: int) -> int:
+        if n == 0:
+            return 0
+        if n == 1:
+            return 1
+        curr_n = 2
+        n_1 = 1
+        n_2 = 0
+        while N >= curr_n:
+            ans = n_1 + n_2
+            n_2 = n_1
+            n_1 = ans
+            curr_n += 1
+        return ans
